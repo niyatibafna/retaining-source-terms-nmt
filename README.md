@@ -1,0 +1,2 @@
+# retaining-source-terms-nmt
+When we are translating technical material from English to Hindi, we may often want to retain certain terminology for consistency and coherence in Hindi. This task deals with constrained decoding of English-Hindi NMT to accomplish this goal i.e. given source English text, and a list of English terms that we want to retain, we want the output in target language Hindi that uses the required English terminology.
