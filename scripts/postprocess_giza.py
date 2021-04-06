@@ -28,7 +28,7 @@ def process_line_block(lines: List[str]):
         en_words.append(word)
         hindi_words.append([])
         for number in re.findall('\d+', numbers):
-            hindi_words[-1].append(hindi[int(number)-1])
+            hindi_words[-1].append(int(number)-1)
 
     return hindi, en_words, hindi_words
 
